@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Teko&display=swap');
+
+:root{
+  --Headsandnav:'Montserrat', sans-serif;
+  --Paragraphsandfooters:'Teko', sans-serif;
+}
+
+.topcolor{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+*{
+  text-transform: capitalize;
+  margin:auto;
+  padding:auto;
+  border: 0;box-sizing: border-box;
+
+}
+
+
+body{
+  font-family: var(--Paragraphsandfooters);
+ color:#2919a6;
+ background: white;
+margin:150px;
+margin-top: 0px;
+margin-bottom: 0px;
+  transition: margin 1.5s;
+}
+
+Main{
+
+
+
+}
+
+nav{
+  font-family: var(--Headsandnav);
+
+}
+
+nav ul{
+  display: inline;
+}
+ol{
+  list-style-type: none;
+}
+
+ul{
+  list-style-type: none;
+ padding: 1px;
+ margin: 0px;
+ width: 100px;
+ overflow: hidden;
+
+}
+.diff:nth-child(even){
+  display: block;
+  background:#828282;
+  color:#d6ceed;
+  transition: 1s;
+
+}
+.diff:nth-child(odd){
+  display:block;
+  background:#bfbfbf;
+  color: #695a91;
+  transition: 1s;
+  }
+
+.diff{
+
+  color: white;
+   text-align: center;
+}
+.diff a{
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.diff:hover a{
+  justify-content: flex-start;
+  color: white;
+  background: #170063;
+}
+.diff:hover {
+  color: white;
+  background:#170063;
+  transition: 1s
+}
+.diff:hover img{
+  opacity: 0.5;
+  filter: opacity=50;
+}
+h2,h3,h4,h5,h6{
+  color:  #2919a6;
+  font-family:var(--Headsandnav);
+  font-size: 25px;
+}
+h1{
+  color:#bfbfbf ;
+}
+a{
+}
+p{
+  color:white;
+  font-size: 20px;
+  margin: 5px;
+}
+@media only screen and (max-width:800px) {
+  body{
+
+  margin:30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: margin 1.5s;
+  }
+}
+
+@media only screen and (max-width:600px) {
+
+
+  li img{
+    margin:auto;
+    width: 50%;
+    height:auto;
+    transition: 1s
+
+
+}
+}
+li img {
+  transition: 1s
+
+}
+
+#footer{
+  border: 100px;
+  background-color: gray;
+  margin-right: 0px;
+}
+#footer a{
+  text-decoration:overline;
+  color: #170063;
+}
+.top-bottom{
+background-color:#bfbfbf;
+
+
+}
+.Page1{
+
+}
+.Sub .diff{
+  background: #004e8a;
+  transition: 1s;
+}
+.Sub .diff a{
+  color:gray;
+
+}
+.Sub .diff :hover{
+  background:#170063 ;
+color: white;
+transition: 1s;
+}
